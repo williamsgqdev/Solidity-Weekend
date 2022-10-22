@@ -7,21 +7,18 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "foo",
+				"name": "golobalVars",
 				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
 					{
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
-					}
-				],
-				"stateMutability": "pure",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "stateVariable",
-				"outputs": [
+					},
 					{
 						"internalType": "uint256",
 						"name": "",
@@ -60,11 +57,11 @@
 	},
 	"sources": {
 		"Varaiable.sol": {
-			"keccak256": "0xc3c580122d30ec1dfcc3f8516569f1221d227ff667c61bcb38ac330ecf76b73c",
+			"keccak256": "0xdf4df916510cd1d527e4538de861f64652a608bc784d17d8de2d16d57e817cc0",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://02b3d57b57aa543a99f05cc03208d58db0cd982926b6e02eccf67150aa55c186",
-				"dweb:/ipfs/QmcuWAcdC27iDpSJvmSnhJhyfxCAaEM5ihhktcMmeJc2J1"
+				"bzz-raw://0743494cac7b37bbc453e324698bc084ec8fea12edb0282846cd5526280e9657",
+				"dweb:/ipfs/QmVk55UpfwEqMfCgRKjw49HkVHyy4SSmgW1bRDvwoweYmS"
 			]
 		}
 	},

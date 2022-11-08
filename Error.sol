@@ -12,4 +12,10 @@ contract ErrorHandler {
           revert("i > 10");
       }
   }
+  error HandleError();
+  function customError(uint _i) public view {
+    if(_i > 10){
+      revert(HandleError());
+    }
+  }
 }
